@@ -1,0 +1,43 @@
+/* ============================== 
+Generel
+============================== */
+@font-face {
+    font-family: Athene;
+    src: url(Athene.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* font-family: 'Open Sans', sans-serif;
+font-family: Athene; */
+*{
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+font-family: 'Open Sans', sans-serif;
+}
+/* ============================== 
+Header
+============================== */
+header{
+    background-color:#ebdcc0;
+}
+h1{
+    font-family: Athene;
+}
+/* ============================== 
+Main Teil 1
+============================== */
+main section:nth-of-type(1){
+    background-color:#F4C4C4;
+}
+/* ============================== 
+Main Teil 2
+============================== */
+main section:nth-of-type(2){
+    background-color:#DEB873;
+}
+/* ============================== 
+Footer
+============================== */
+Footer{
+    background-color:#D2D2D2;
+}
